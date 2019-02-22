@@ -1,0 +1,128 @@
+body {
+    background: #1f1f1f;
+    color: #fff;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+#particles-js {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#particles-js.sm-particle-container{
+    height:40% !important;
+}
+
+.btn {
+    border-radius: 8px !important;
+}
+
+.card {
+    /* color: #000; */
+    background: transparent;
+    border: 0px solid transparent;
+    border-radius: 15px !important;
+    /* height:200px !important; */
+}
+.card-title{
+    font-weight: 500;
+}
+.card-text{
+    font-weight:500;
+    height:100px;
+    overflow: hidden;
+}
+.card-img-top {
+    border-radius: 15px;
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card:hover {
+    /* color: red; */
+    transition: transform .2s;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.edu-cards-container {
+    /* margin-top: 100%; */
+    margin-bottom: 40px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.navbar, .jumbotron {
+    background: transparent !important;
+    /* position: absolute; */
+}
+
+.header-intro {
+    /* position: relative;
+    z-index: 1; */
+    text-align: center;
+    /* margin-bottom:50%; */
+}
+
+.header-image-intro, .header-text-intro {
+    /* position: absolute;     */
+}
+
+.animText {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    display: inline;
+}
+
+.animbox {
+    height: 100px;
+    width: 100%;
+}
+
+.char-sym {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header-image-intro {
+    margin-top: 12%;
+    width: 25%;
+    min-width: 150px;
+    height: auto;
+    min-height: 150px;
+}
+
+.divider-hr {
+    width: 40%;
+    min-width: 250px;
+    margin-top: 6em;
+    background: rgb(148, 148, 148);
+    /* color: #b4b4b4 !important;  */
+    border-radius: 10px;
+    height: 5px;
+}
+.edu-tag-header{
+    margin-top: 30px;
+    
+    text-align: center;
+}
+
+.edu-tag-header h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.header-main-text{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 23px;
+}
+
+footer.container{
+    text-align: center;
+}
