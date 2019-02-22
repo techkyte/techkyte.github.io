@@ -1,9 +1,9 @@
 {
-  "name": "Techkyte",
+  "name": "Teckboart",
   "short_name": "Techkyte",
   "theme_color": "#4ba0fa",
   "background_color": "#1f1f1f",
-  "display": "standalone",
+  "display": "fullscreen",
   "Scope": "/",
   "start_url": "/",
   "icons": [
