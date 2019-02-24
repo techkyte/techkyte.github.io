@@ -12,12 +12,28 @@ body {
     height: 100%;
 }
 
-#particles-js.sm-particle-container{
-    height:40% !important;
+#particles-js.sm-particle-container {
+    height: 40% !important;
 }
 
 .btn {
-    border-radius: 8px !important;
+    border-radius: 500px !important;
+    background: #ffffff;
+    color:#000 !important;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 50px;
+    padding: 12px 60px;
+    color: #fff;
+    cursor: pointer;
+    line-height: 25px;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+}
+
+.btn:hover{
+    color:#fff !important;
 }
 
 .card {
@@ -27,17 +43,19 @@ body {
     border-radius: 15px !important;
     /* height:200px !important; */
 }
-.card-title{
+
+.card-title {
     font-weight: 500;
 }
-.card-text{
-    font-weight:500;
-    height:100px;
+
+.card-text {
+    font-weight: 500;
+    height: 100px;
     overflow: hidden;
 }
+
 .card-img-top {
     border-radius: 15px;
-    
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -106,23 +124,23 @@ body {
     border-radius: 10px;
     height: 5px;
 }
-.edu-tag-header{
+
+.edu-tag-header {
     margin-top: 30px;
-    
     text-align: center;
 }
 
-.edu-tag-header h2{
+.edu-tag-header h2 {
     font-size: 40px;
     font-weight: 500;
 }
 
-.header-main-text{
+.header-main-text {
     font-size: 4rem;
     font-weight: 700;
     margin-top: 23px;
 }
 
-footer.container{
+footer.container {
     text-align: center;
 }
